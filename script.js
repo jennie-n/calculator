@@ -19,6 +19,9 @@ function multiply(a, b){
 // divide()
 // divides a by b
 function divide(a, b){
+    if(b == 0){
+        return undefined;
+    }
     return a/b;
 }
 
@@ -41,6 +44,12 @@ function operate(operator, a, b){
 
 // display()
 // populate the display when the number buttons are clicked
-function display(){
+function display(justEntered){
+    document.getElementById("result").value += justEntered;
+}
 
+// clear()
+// clears the display
+function clr(){
+    document.getElementById("result").value = "";
 }
