@@ -1,44 +1,12 @@
-// add()
-// adds two numbers
-function add(a, b){
-    return a+b;
-}
-
-// subtract()
-// subtracts two numbers
-function subtract(a, b){
-    return a-b;
-}
-
-// multiply()
-// multiplies two numbers
-function multiply(a, b){
-    return a*b;
-}
-
-// divide()
-// divides a by b
-function divide(a, b){
-    if(b == 0){
-        return undefined;
-    }
-    return a/b;
-}
-
 // operate()
-// input: operator, number, number
-// calls the appropriate function on the numbers
-function operate(operator, a, b){
-    if(operator == "+"){
-        return add(a, b);
-    } else if(operator == "-"){
-        return subtract(a, b);
-    } else if(operator == "*"){
-        return multiply(a, b);
-    } else if(operator == "/"){
-        return divide(a, b);
+// evaluates the answer
+function operate(){
+    let entered = document.getElementById("result").value;
+    let answer = eval(entered);
+    if(answer == "Infinity"){
+        document.getElementById("result").value = "Not calculable";
     } else {
-        return ("Sorry, I can't understand.");
+        document.getElementById("result").value = answer;
     }
 }
 
