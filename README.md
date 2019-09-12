@@ -10,5 +10,4 @@ Inspired by The Odin Project's Web Development 101 course
 
 ## To Do
 - Implement rounding (to the nearest 10 decimal places)
-- Edit aesthetics
 - Add keyboard functions

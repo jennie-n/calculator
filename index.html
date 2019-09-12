@@ -13,6 +13,11 @@
 
     <body>
         <table> 
+            <col width="75">
+            <col width="75">
+            <col width="75">
+            <col width="75">
+            <div class="buttons">
             <tr> 
                 <!-- first row: calculator display and clear button -->
                 <td colspan="2"><input type="text" id="result"/></td>
@@ -43,7 +48,8 @@
                 <td><input type="button" value="." onclick="display('.')"/> </td> 
                 <td><input type="button" value="=" onclick="operate()"/> </td> 
                 <td><input type="button" value="+" onclick="display('+')"/> </td> 
-            </tr> 
+            </tr>
+            </div>
         </table> 
 
         <script src="script.js"></script>
