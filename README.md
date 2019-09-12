@@ -1,6 +1,6 @@
 A calculator that performs all of the basic math operators
 
-Currently usable in browser [here](https://jennienguyen.me/calculator)
+Currently usable in browser [here](https://https://jennie-n.github.io/calculator)
 
 Inspired by The Odin Project's Web Development 101 course
 
