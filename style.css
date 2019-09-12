@@ -1,0 +1,26 @@
+table{
+    background-color: #F6E7C9;
+    border: solid black 1px;
+}
+
+input[type="button"]{ 
+    background-color: #E8B291; 
+    color: black; 
+    border: solid black 1px; 
+    width:100%;
+    border-radius: 100%;
+}
+
+input[type="button"]:hover { 
+    background-color:#E7D3AE; 
+    color: black; 
+    border: solid black 1px; 
+    width: 100%;
+    border-radius: 100%;
+} 
+
+input[type="text"]{ 
+    background-color: #FFFFFF; 
+    border: solid black 1px;
+    width: 100%;
+} 
